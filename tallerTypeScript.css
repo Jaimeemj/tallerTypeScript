@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=B612');
+
+
+body {
+    font-family: "B612";
+    font-size: 18px;
+  }
+
+#infoSerie {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    border: solid 1px;
+    margin-left:auto; 
+    margin-right:auto;
+  }
+  #infoSerie img {
+    width: 70%;
+    height: auto;
+}
+#infoSerie tbody tr{
+    text-align: center;
+    border: solid 1px;
+}
+
+
+#tabSeries {
+    border: solid 1px #DDEEEE;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-left:auto; 
+    margin-right:auto;
+}
+#tabSeries thead th {
+    background-color: #DDEFEF;
+    border: solid 1px #DDEEEE;
+    color: #336B6B;
+    /*padding: 10px;*/
+    text-shadow: 1px 1px 1px #fff;
+}
+#series tbody td {
+    border: solid 1px #DDEEEE;
+    color: #333;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #fff;
+}
+tr:nth-child(odd) {
+    background-color: #f8f8f8; /* Fondo gris claro */
+  }
